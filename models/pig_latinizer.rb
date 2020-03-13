@@ -1,6 +1,4 @@
 class PigLatinizer
-  attr_reader :words
-
 
   def split_phrase
     self.split
