@@ -10,7 +10,6 @@ class PigLatinizer
   end
 
   def pig_latin
-    vowels = ["a","e","i","o","u","y"]
     ay = "ay"
     way = "way"
     pig_array = split_phrase.map do |word|
