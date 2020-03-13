@@ -1,6 +1,6 @@
 class PigLatinizer
 
-  binding.pry
+
   def piglatinize(phrase)
     ay = "ay"
     way = "way"
