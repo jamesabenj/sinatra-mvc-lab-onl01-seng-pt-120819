@@ -9,7 +9,7 @@ class PigLatinizer
     self.text.split
   end
 
-  def pig_latin
+  def piglatinize
     ay = "ay"
     way = "way"
     pig_array = split_phrase.map do |word|
