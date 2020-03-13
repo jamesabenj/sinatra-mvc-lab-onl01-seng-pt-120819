@@ -1,13 +1,10 @@
 class PigLatinizer
 
-  def split_phrase
-    self.split
-  end
   binding.pry
-  def piglatinize
+  def piglatinize(phrase)
     ay = "ay"
     way = "way"
-    pig_array = split_phrase.map do |word|
+    pig_array = phrase.split.map do |word|
       if word[0].match(/[aeiouyAEIOUY]/)
         new_word = word + way
         new_word
