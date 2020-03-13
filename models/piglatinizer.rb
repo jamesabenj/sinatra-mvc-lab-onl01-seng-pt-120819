@@ -14,7 +14,7 @@ class PigLatinizer
     ay = "ay"
     way = "way"
     pig_array = split_phrase.map do |word|
-      if word[0].match(/[aeiouyAEIOUY])
+      if word[0].match(/[aeiouyAEIOUY]/)
         new_word = word + way
         new_word
       else
