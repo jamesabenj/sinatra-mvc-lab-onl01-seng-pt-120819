@@ -3,7 +3,7 @@ class PigLatinizer
   def split_phrase
     self.split
   end
-
+  binding.pry
   def piglatinize
     ay = "ay"
     way = "way"
