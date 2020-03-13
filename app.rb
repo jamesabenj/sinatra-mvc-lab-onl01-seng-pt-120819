@@ -1,5 +1,5 @@
 require_relative 'config/environment'
-require_relative 'models/piglatinizer.rb'
+require_relative 'models/pig_latinizer.rb'
 
 class App < Sinatra::Base
   get '/' do
